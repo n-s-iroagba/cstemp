@@ -1,0 +1,73 @@
+
+
+body {
+  text-align: center;
+  background-image:url("bgi.png"); 
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body img{
+width: 20px;
+}
+.App {
+  text-align: center;
+}
+
+.logo {
+  display: flex;
+  justify-content: flex-start;
+
+}
+.logo img{
+  width: 100px;
+}
+.fmsg{
+  font-weight: 900;
+  color:black;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.nav{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap:1rem;
+}
+.msg{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap:1rem;
+  height: 500px;
+  font: weight 900;
+  color:white;
+}
+.footer{
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  max-height: 40vh;
+  
+}
+
+@keyframes type{ 
+  from { width: 0; } 
+} 
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
