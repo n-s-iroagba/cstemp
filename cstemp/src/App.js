@@ -21,7 +21,7 @@ function App() {
           <Nav.Link href = 'home'>HOME</Nav.Link>
         </Nav>
         <Nav>
-          <Nav.Link href = 'home'>ABOUT US</Nav.Link>
+          <Nav.Link href = 'about us'>ABOUT US</Nav.Link>
         </Nav>
          
         <Nav><NavDropdown title= 'SERVICES'>
